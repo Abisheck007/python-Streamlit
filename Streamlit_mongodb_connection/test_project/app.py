@@ -1,5 +1,5 @@
 import streamlit as st
-from db_helper import  insert_data,get_all_data,update_data_by_name,delete_data_by_name,search_data_by_name
+from Streamlit_mongodb_connection.test_project.db_helper import  insert_data,get_all_data,update_data_by_name,delete_data_by_name,search_data_by_name
 st.title("People Database Manager")
 
 menu = ["Insert", "View", "Search", "Update", "Delete"]
